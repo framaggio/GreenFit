@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenFit.Pages.NewPage1"
+             Title="MapPage"
+             BackgroundColor="#F5F7F8">
+    <Grid RowDefinitions="*, Auto">
+
+        <WebView Grid.Row="0" 
+                 Source="https://www.openstreetmap.org/export/embed.html?bbox=8.9,45.4,9.3,45.6&amp;layer=mapnik" />
+
+        <StackLayout Grid.Row="1" 
+                     BackgroundColor="#4CAF50" 
+                     Padding="15" 
+                     Orientation="Horizontal">
+
+            <Label Text="Esplora la mappa" 
+                   VerticalOptions="Center" 
+                   TextColor="White" 
+                   FontSize="16" 
+                   FontAttributes="Bold" />
+
+            <Button Text="+ Aggiungi" 
+                    HorizontalOptions="EndAndExpand" 
+                    BackgroundColor="#FF9F1C" 
+                    TextColor="#1B4332" 
+                    CornerRadius="20" 
+                    HeightRequest="40"/>
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

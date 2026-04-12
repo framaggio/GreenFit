@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenFit.Pages.GymDeteailsPage"
+             Title="GymDeteailsPage"
+             BackgroundColor="#F5F7F8">
+    <ScrollView>
+        <VerticalStackLayout Spacing="15" Padding="20">
+
+            <Image Source="palestra_foto.jpg" 
+                   HeightRequest="220" 
+                   Aspect="AspectFill" />
+
+            <Label Text="Parco Sempione Calisthenics" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   TextColor="#222222" />
+
+            <Label Text="Una bellissima area attrezzata con sbarre per trazioni, parallele e anelli per il corpo libero. Aperta 24h." 
+                   FontSize="16" 
+                   TextColor="#555555" />
+
+            <BoxView HeightRequest="1" Color="#DDDDDD" Margin="0,10,0,10" />
+
+            <Label Text="Recensioni (2)" 
+                   FontSize="20" 
+                   FontAttributes="Bold" 
+                   TextColor="#222222" />
+
+            <Frame BackgroundColor="White" CornerRadius="8" Padding="15" HasShadow="True" BorderColor="Transparent">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Marco Rossi" FontAttributes="Bold" TextColor="#333333" />
+                    <Label Text="Ottima palestra, molto frequentata la sera. Le sbarre hanno un buon grip." TextColor="#666666" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White" CornerRadius="8" Padding="15" HasShadow="True" BorderColor="Transparent">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Giulia B." FontAttributes="Bold" TextColor="#333333" />
+                    <Label Text="Strutture nuove, ma purtroppo non c'è una fontanella d'acqua vicina. Portatevi la borraccia!" TextColor="#666666" />
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
