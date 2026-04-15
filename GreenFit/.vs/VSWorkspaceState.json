@@ -2,14 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\GreenFit",
-    "\\GreenFit\\Platforms\\Android",
-    "\\GreenFit\\Platforms\\Windows",
-    "\\GreenFit\\Resources\\Fonts",
-    "\\GreenFit\\Resources\\Images",
-    "\\GreenFit\\Resources\\Raw",
-    "\\GreenFit\\Resources\\Splash",
-    "\\GreenFit\\Resources\\Styles"
+    "\\GreenFit\\Pages"
   ],
-  "SelectedNode": "\\GreenFit.slnx",
+  "SelectedNode": "\\GreenFit\\Pages\\ChatBotPage.xaml",
   "PreviewInSolutionExplorer": false
 }
